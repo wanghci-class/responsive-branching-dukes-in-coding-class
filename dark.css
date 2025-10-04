@@ -1,0 +1,25 @@
+.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark {
+    background-color: #222222;
+    color: #eeeeee;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #ffffff;
+        color: #ddccbb;
+        outline: 5px dashed black;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #775533;
+        color: #ddccbb;
+        outline: 5px dotted black;
+    }
+}
